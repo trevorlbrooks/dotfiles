@@ -1,6 +1,3 @@
-export PATH=/Applications/activator-1.3.7-minimal:$PATH
-export PATH=/Applications/scala-2.11.7/bin:$PATH
-
 alias ls='ls -G'
 alias lh='ls -lh'
 
@@ -51,4 +48,8 @@ extract () {
       echo "'$1' is not a valid file!"
   fi
 }
+
+if [ -f /usr/lib/python3.4/site-packages/powerline/bindings/bash/powerline.sh ]; then
+    source /usr/lib/python3.4/site-packages/powerline/bindings/bash/powerline.sh
+fi
 
