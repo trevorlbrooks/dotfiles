@@ -1,5 +1,5 @@
 syntax on
-colorscheme darkblue
+colorscheme 256-grayvim
 filetype plugin on
 filetype indent on
 set guifont=7x13
@@ -88,3 +88,10 @@ let g:syntastic_check_on_wq = 0
 "Airline
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
+
+inoremap jk <esc>
+
+" Show trailing whitespace as fancy unicode chars
+set list
+"set listchars=nbsp:␣,trail:·
+set listchars=tab:→\ ,trail:∙,nbsp:•,

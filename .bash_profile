@@ -49,7 +49,8 @@ extract () {
   fi
 }
 
-if [ -f /usr/lib/python3.4/site-packages/powerline/bindings/bash/powerline.sh ]; then
-    source /usr/lib/python3.4/site-packages/powerline/bindings/bash/powerline.sh
-fi
+# Enable/ adjust for powerline in bash
+#if [ -f /usr/lib/python3.4/site-packages/powerline/bindings/bash/powerline.sh ]; then
+#    source /usr/lib/python3.4/site-packages/powerline/bindings/bash/powerline.sh
+#fi
 
