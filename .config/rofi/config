@@ -1,0 +1,38 @@
+! Disable history
+rofi.disable-history: false
+
+! Hide scrollbar
+rofi.hide-scrollbar: true
+
+! Visible lines
+rofi.lines: 8
+
+! Width percentage
+rofi.width: 50
+
+! Border width
+rofi.bw: 8
+
+! Marching algorithm (normal, regex, glob, fuzzy)
+rofi.matching: normal
+
+! Default terminal
+rofi.terminal: termite
+
+rofi.color-enabled: true
+
+! Window: background, border, separator
+rofi.color-window: #282a36, argb:AA44475a, #8be9fd
+
+! Normal row: background, foreground, BG alt, highlight BG, highlight FG
+rofi.color-normal: #282a36, #f8f8f2, #282a36, #44475a, #00ffff
+
+! Urgent row: background, foreground, BG alt, highlight BG, highlight FG
+rofi.color-urgent: #282a36, #ff79c6, #282a36, #44475a, #00ffff
+
+! Active row: background, foreground, BG alt, highlight BG, highlight FG
+rofi.color-active: #282a36, #50fa7b, #282a36, #44475a, #00ffff
+
+! Separator style 9non, dash, solid)
+rofi.separator-style: solid
+
