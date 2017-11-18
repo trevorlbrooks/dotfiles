@@ -2,23 +2,24 @@
 ;++++++++++++++++++++++
 ; Dracula Color Theme +
 ;++++++++++++++++++++++
-bg = #282a36
-fg = #f8f8f2
-select = #44475a
-blue = #6272a4
-cyan = #8be9fd
+bg = #282936
+fg = #00ffff
+fg-alt = #dadada
+select = #121212
+blue = #62d6e8
+cyan = #5fffff
 pink = #ff79c6
-purple = #00ffff
-green = #50fa7b
-orange = #ffb86c
-red = #ff5555
+purple = #005fff
+green = #5fd700
+orange = #ff8700
+red = #d70000
 yellow = #f1fa8c
 
 ;++++++++++++++++++++++
 background = ${colors.bg} 
 background-alt = ${colors.select}
 foreground = ${colors.fg} 
-foreground-alt = ${colors.select} 
+foreground-alt = ${colors.fg-alt} 
 primary = ${colors.purple} 
 secondary = ${colors.cyan}
 alert =  ${colors.pink}
@@ -172,7 +173,7 @@ padding-right = 2
 [module/temperature]
 type = internal/temperature
 thermal-zone = 0
-warn-temperature = 60
+warn-temperature = 80
 
 format = <ramp> <label>
 format-underline = ${colors.select}
