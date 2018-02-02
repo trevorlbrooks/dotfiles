@@ -25,7 +25,7 @@ secondary = ${colors.cyan}
 alert =  ${colors.pink}
 
 [bar/bar]
-monitor = VGA-1
+monitor = DP-0
 width = 100%
 height = 30
 radius = 0.0
@@ -48,15 +48,15 @@ padding-right = 0
 
 module-margin-left = 1
 module-margin-right = 2
-font-0 = Source Code Pro for Powerline:pixelsize=12;1k
-font-1 = Source Code Pro for Powerline:pixelsize=12;1k
-font-2 = Source Code Pro for Powerline:pixelsize=12;1k
-;font-1 = mplus:pixelsize=12;1
-;font-2 = mplus:pixelsize=12;1
+font-0 = Source Code Pro for Powerline:pixelsize=12;
+font-1 = Source Code Pro for Powerline:pixelsize=12;
+font-2 = Source Code Pro for Powerline:pixelsize=12;
+;font-1 = mplus:pixelsize=12;
+;font-2 = mplus:pixelsize=12;
 
 modules-left = bspwm i3
-modules-center = 
-modules-right = pub-ip volume memory cpu temperature date
+modules-center = date 
+modules-right = pub-ip volume memory cpu temperature 
 
 tray-position = right 
 tray-padding = 2
@@ -194,7 +194,7 @@ margin-bottom =
 type = internal/volume
 
 format-volume = <label-volume> <bar-volume>
-label-volume = ""
+label-volume = 
 label-volume-foreground = ${root.foreground}
 label-muted = muted
 

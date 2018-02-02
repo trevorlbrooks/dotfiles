@@ -93,5 +93,3 @@ inoremap jk <esc>
 
 " Show trailing whitespace as fancy unicode chars
 set list
-"set listchars=nbsp:␣,trail:·
-set listchars=tab:→\ ,trail:∙,nbsp:•,
