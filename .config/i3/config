@@ -149,7 +149,7 @@ bindsym $mod+r mode "resize"
 
 bindsym $mod+t exec i3lock
 
-exec i3-msg 'workspace 1; exec termite'
+exec i3-msg 'workspace 1; exec hyper'
 
 #Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
