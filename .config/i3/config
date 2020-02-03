@@ -134,7 +134,7 @@ mode "resize" {
         bindsym l resize shrink height 10 px or 10 ppt
         bindsym semicolon resize grow width 10 px or 10 ppt
 
-        # same bindings, but for the arrow keys
+# same bindings, but for the arrow keys
         bindsym Left resize shrink width 10 px or 10 ppt
         bindsym Down resize grow height 10 px or 10 ppt
         bindsym Up resize shrink height 10 px or 10 ppt
@@ -149,7 +149,7 @@ bindsym $mod+r mode "resize"
 
 bindsym $mod+t exec i3lock
 
-exec i3-msg 'workspace 2; exec termite'
+exec i3-msg 'workspace 1; exec termite'
 
 #Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
