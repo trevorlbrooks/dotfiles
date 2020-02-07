@@ -11,7 +11,9 @@ set $mod Mod4
 #font pango:monospace 8
 font pango:Source Code Pro for Powerline 14px
 exec sh ~/.fehbg
-exec compton
+# Enable Compositor
+exec picom -b
+
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
 #font pango:DejaVu Sans Mono 8
@@ -174,5 +176,3 @@ gaps inner 5
 gaps outer 5
 gaps top 5
 
-# Enable Compositor
-exec picom -b
