@@ -1,0 +1,20 @@
+[color]
+  branch = auto
+  diff = auto
+  interactive = auto
+  status = auto
+[push]
+  autoSetupRemote = true
+[pull]
+  rebase = false
+[merge]
+  conflictStyle = zdiff3
+[diff]
+  algorithm = histogram
+[alias]
+  c = commit
+  ca = commit -a
+  cm = commit -m
+  cam = commit -am
+  d = diff
+  dc = diff --cached
