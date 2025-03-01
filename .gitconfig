@@ -11,6 +11,16 @@
   conflictStyle = zdiff3
 [diff]
   algorithm = histogram
+  colorMoved = plain
+  renames = true
+[init]
+  defaultBranch = main
+[column]
+  ui = auto
+[branch]
+  sort = -committerdate
+[tag]
+  sort = version:refname
 [alias]
   c = commit
   ca = commit -a
